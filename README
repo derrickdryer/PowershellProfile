@@ -1,5 +1,7 @@
 # Powershell Profile
 
+![PowerShell](/Assets/image.png)
+
 This is a simple powershell profile that I use as my daily driver. I originally was using Chris Titus's profile, but it has extremely long load times due to it pulling and updating on every load.
 
 ## Whats included
