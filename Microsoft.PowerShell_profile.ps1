@@ -24,15 +24,15 @@ function Initialize-Dependencies {
   # Install missing tools via winget if available.
   if (-not $hasOmp -and $hasWinget) {
     Write-Host "Installing oh-my-posh via winget..." -ForegroundColor Yellow
-    winget install --id og-my-posh -e --silent
+    winget install --id JanDeDobbeleer.OhMyPosh -e --silent
   }
   if (-not $hasZoxide -and $hasWinget) {
     Write-Host "Installing zoxide via winget..." -ForegroundColor Yellow
-    winget install --id zoxide -e --silent
+    winget install --id ajeetdsouza.zoxide -e --silent
   }
   if (-not $hasFzf -and $hasWinget) {
     Write-Host "Installing fzf via winget..." -ForegroundColor Yellow
-    winget install --id fzf -e --silent
+    winget install --id junegunn.fzf -e --silent
   }
 }
 
