@@ -1,0 +1,24 @@
+# Powershell Profile
+
+This is a simple powershell profile that I use as my daily driver. I originally was using Chris Titus's profile, but it has extremely long load times due to it pulling and updating on every load.
+
+## Whats included
+
+- Linux like aliases
+- Oh-My-Posh
+- zoxide
+- fzf
+
+All of the dependancies are automatically installed on initialization through winget. Always make sure you look into the script you are running.
+
+## How to use
+
+Download the `Micrsoft.PowerShell_profile.ps1` & `linux_aliases.ps1` and place them into:
+`C:\Users\YOUR USER\Documents\Powershell` folder.
+
+**If you wish to use my custom theme based off hul10 & dracula color scheme**
+Then you download the `custom.omp.json` and place it into your _oh-my-posh_ themes folder. You could also modify line _68_, to use a file in your Powershell folder.
+
+## Notes
+
+I am using powershell 7
